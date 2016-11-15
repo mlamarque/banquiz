@@ -1,0 +1,7 @@
+<p>Banks</p>
+
+<ul>
+  <% @banks.each do |bank| %>
+    <li><%= link_to "#{bank.name}", bank %></li>
+  <% end %>
+</ul>

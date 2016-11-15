@@ -1,0 +1,7 @@
+<h1><%= @bank.name %></h1>
+
+
+<p>Les compte de la banque : </p>
+<% @accounts.each do |account| %>
+  <p><%=  account.username %></p>
+<% end %>
